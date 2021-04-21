@@ -1,0 +1,756 @@
+
+.container-fluid{
+    background-image: url(../../img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0;
+}
+.top{
+   margin-top: 45px;
+}
+.top-header{
+    margin-bottom: 140px;
+}
+.bg-light{
+    background-color: transparent!important;
+}
+.mr-auto, .mx-auto{
+    margin-left: 50px;
+}
+.nav-item{
+   color: white;
+}
+.nav-link{
+    display: inline-block;
+    margin: 0 25px; 
+    color: white!important;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.2s ease-in-out;
+}
+.nav-link:hover{
+    color: yellow!important;   
+}
+.mid-header{
+    margin-right: 0px;
+}
+.call{
+    margin: 0 auto;
+}
+.call h1{
+    color: #f6f9fa;
+    background-color: #00000059;
+    display: inline-block;
+    margin-left: 149px;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 40px;
+}
+.call-two{
+   margin-bottom: 110px;
+}
+.call-two h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-left: 393px;
+    margin-top: 20px;
+}
+span{
+   border: 1px solid white;
+    width: 20px;
+    display: block;
+    margin-left: 390px;
+    margin-bottom: 35px;  
+}
+.btn{
+    margin-bottom: 240px; 
+}
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 375px;
+    padding: 15px 100px;
+    border: 1px solid white;
+    color: white; 
+    background-color: transparent;
+}
+.btn a:hover{
+    cursor: pointer;
+    border: 1px solid deepskyblue;
+    color: deepskyblue;
+}
+.welcome{
+    background-color: #f6f6f6;
+    padding: 25px 0;
+}
+.r-welcome{
+   padding-top: 100px; 
+}
+.w-text{
+    margin-top: 0px;
+}
+.w-text h1{
+    font-size: 47px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+.w-text h6{
+    border: 1px solid black;
+    width: 20px;
+    margin-bottom: 45px;    
+}
+.w-text p{
+  color: #a5a5a5;
+  font-size: 19px;
+  margin-bottom: 80px;    
+}
+.w-pic{
+    
+}
+.w-img{
+    margin-top: 160px;
+}
+.w-img img{
+    width: 100%;
+}
+.another{
+   background-color: #28282e;
+   padding: 25px 0; 
+    margin-top: -80px;
+}
+.r-another{
+   margin-bottom: 120px;
+    margin-top: 100px;
+}
+.a-text{
+    color: white;
+}
+.a-text h1{
+    text-align: center;
+    font-size: 43px;
+    font-weight: bold;
+    padding-bottom: 20px;    
+}
+.a-text h6{
+   border: 1px solid white;
+   width: 25px;
+   margin-bottom: 45px;    
+}
+.a-text p{
+  font-size: 19px;
+  padding-bottom: 65px;  
+}
+.a-text a{
+    padding: 15px 25px;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer; 
+    text-decoration: none;
+}
+.a-text a:hover{
+    border: 1px solid yellow;
+    color: yellow;
+    cursor: pointer;
+}
+.a-pic{   
+    margin-top: -220px;
+    margin-left: 560px; 
+}
+footer{
+   background-color: #ef4035;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}
+.footer-text{
+    
+}
+.footer-text p{
+    
+}
+@media (min-width: 320px) and (max-width: 576px){
+    .container-fluid{
+     background-image: url(../../img/banner2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    padding: 25px 0;
+}
+    .top {
+    margin-top: 5px;
+}
+    span {
+    border: 1px solid white;
+    width: 50px;
+    display: block;
+    margin-left: 35px;
+    margin-bottom: 35px;  
+}
+    .menu{
+   margin-left: 60px;
+}
+    .call {
+    margin: 0 auto;
+    margin-top: -20px;
+}
+    .call h1{
+   color: #f6f9fa;
+background-color: #00000059;
+display: inline-block;
+margin-left: 35px;
+font-size: 20px;
+padding: 10px 40px;
+}
+    .call-two {
+    margin-bottom: 15px;
+}
+    .call-two h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+ .top-header{
+    margin-bottom: 8px;
+}
+    .logo img{
+        width: 100%;
+    } 
+    .btn {
+    margin-bottom: 15px;
+}
+    .btn a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 70px;
+    padding: 10px 40px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+ .welcome{
+    background-color: #f6f6f6;
+    padding: 25px 0;
+}
+.r-welcome{
+   padding-top: 0px; 
+}
+.w-text{
+    margin-top: 10px;
+}
+.w-text h1{
+    font-size: 21px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;        
+}
+.w-text h6{
+   border: 1px solid black;
+   width: 20px;
+   margin-bottom: 25px;
+   margin-left: 125px;       
+}
+.w-text p{
+  color: #a5a5a5;
+  font-size: 15px;
+  margin-bottom: 0px;      
+}
+.w-pic{
+    
+}
+.w-img{
+    margin-top: 40px;
+}
+.w-img img{
+    width: 100%;
+}
+.another{
+   background-color: #28282e;
+   padding: 25px 0; 
+   margin-top: 0;
+}
+.r-another{
+    margin-bottom: 50px;
+    margin-top: 15px;
+    
+}
+.a-text{
+    color: white;
+}
+.a-text h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;        
+}
+.a-text h6{
+   border: 1px solid white;
+   width: 25px;
+   margin-bottom: 20px;
+   margin-left: 130px;       
+}
+.a-text p{
+  font-size: 15px;
+  padding-bottom: 40px;
+  text-align: justify;    
+}
+.a-text a{
+    padding: 15px 25px;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 70px;
+    text-decoration: none;
+}
+.a-text a:hover{
+    border: 1px solid yellow;
+    color: yellow;
+    cursor: pointer;
+}
+.a-pic{   
+    margin-top: 50px;
+    margin-left: 0; 
+}    
+footer {
+    background-color: #ef4035;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 10px;
+}    
+}
+
+@media (min-width: 400px) and (max-width: 576px){
+   .w-text h6 {
+    border: 1px solid black;
+    width: 20px;
+    margin-bottom: 25px;
+    margin-left: 180px;
+} 
+    .a-text h6 {
+    border: 1px solid white;
+    width: 25px;
+    margin-bottom: 20px;
+    margin-left: 190px;
+}
+    .a-pic{   
+    margin-top: 50px;
+    margin-left: 0; 
+}
+footer {
+    background-color: #ef4035;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 10px;
+}    
+}    
+@media (min-width: 576.01px) and (max-width: 768px){
+       .top {
+    margin-top: 5px;
+}
+     .container-fluid{
+     background-image: url(../../img/banner2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    padding: 25px 0;
+}
+    span {
+    border: 1px solid white;
+    width: 50px;
+    display: block;
+    margin-left: 127px;
+    margin-bottom: 35px;  
+}
+    .menu{
+   margin-left: 60px;
+}
+    .call {
+    margin: 0 auto;
+    margin-top: -20px;
+}
+    .call h1{
+   color: #f6f9fa;
+background-color: #00000059;
+display: inline-block;
+margin-left: 120px;
+font-size: 25px;
+padding: 10px 40px;
+}
+    .call-two {
+    margin-bottom: 15px;
+}
+    .call-two h5 {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+ .top-header{
+    margin-bottom: 8px;
+}
+    .logo img{
+        width: 100%;
+    } 
+    .btn {
+    margin-bottom: 15px;
+}
+    .btn a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 170px;
+    padding: 10px 40px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+ .welcome{
+    background-color: #f6f6f6;
+    padding: 25px 0;
+}
+.r-welcome{
+   padding-top: 0px; 
+}
+.w-text{
+    margin-top: 10px;
+}
+.w-text h1{
+    font-size: 21px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;        
+}
+.w-text h6{
+   border: 1px solid black;
+   width: 20px;
+   margin-bottom: 25px;
+   margin-left: 230px;       
+}
+.w-text p{
+  color: #a5a5a5;
+  font-size: 15px;
+  margin-bottom: 0px;      
+}
+.w-pic{
+    
+}
+.w-img{
+    margin-top: 40px;
+}
+.w-img img{
+    width: 100%;
+}
+.another{
+   background-color: #28282e;
+   padding: 25px 0; 
+   margin-top: 0;
+}
+.r-another{
+    margin-bottom: 50px;
+    margin-top: 15px;
+    
+}
+.a-text{
+    color: white;
+}
+.a-text h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;        
+}
+.a-text h6{
+   border: 1px solid white;
+   width: 25px;
+   margin-bottom: 20px;
+   margin-left: 250px;       
+}
+.a-text p{
+  font-size: 15px;
+  padding-bottom: 40px;
+  text-align: justify;    
+}
+.a-text a{
+    padding: 15px 25px;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 190px;
+    text-decoration: none;
+}
+.a-text a:hover{
+    border: 1px solid yellow;
+    color: yellow;
+    cursor: pointer;
+}
+.a-pic{   
+    margin-top: 50px;
+    margin-left: 0; 
+}    
+   
+}
+@media (width: 768px) {
+         .top {
+    margin-top: 5px;
+}
+    span {
+    border: 1px solid white;
+    width: 50px;
+    display: block;
+    margin-left: 222px;
+    margin-bottom: 35px;  
+}
+    .menu{
+   margin-left: 0px;
+}
+    .call {
+    margin: 0 auto;
+    margin-top: -20px;
+}
+    .call h1{
+   color: #f6f9fa;
+background-color: #00000059;
+display: inline-block;
+margin-left: 120px;
+font-size: 25px;
+padding: 10px 40px;
+}
+    .call-two {
+    margin-bottom: 15px;
+}
+    .call-two h5 {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    margin-left: 222px;
+    margin-top: 20px;
+}
+ .top-header{
+    margin-bottom: 30px;
+}
+    .logo img{
+        width: 100%;
+    } 
+    .btn {
+    margin-bottom: 15px;
+}
+    .btn a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 207px;
+    padding: 10px 40px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}  
+.w-text h6 {
+    border: 1px solid black;
+    width: 20px;
+    margin-bottom: 25px;
+    margin-left: 115px;
+}    
+.w-text p {
+    color: #a5a5a5;
+    font-size: 14px;
+    margin-bottom: 0px;
+}    
+.w-img {
+    margin-top: 75px;
+} 
+.another{
+   background-color: #28282e;
+   padding: 25px 0; 
+   margin-top: 0;
+}
+.r-another{
+    margin-bottom: 50px;
+    margin-top: 15px;
+    
+}
+.a-text{
+    color: white;
+    margin-left: -20px;
+}
+.a-text h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;        
+}
+.a-text h6{
+   border: 1px solid white;
+   width: 25px;
+   margin-bottom: 20px;
+   margin-left: 115px;       
+}
+.a-text p{
+  font-size: 13px;
+  padding-bottom: 40px;
+  text-align: justify;      
+}
+.a-text a{
+    padding: 15px 25px;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.a-text a:hover{
+    border: 1px solid yellow;
+    color: yellow;
+    cursor: pointer;
+}
+.a-pic{   
+    margin-top: -177px;
+    margin-left: 264px; 
+}        
+    
+    
+}
+@media (min-width: 768.01px) and (max-width: 992px){
+           .top {
+    margin-top: 5px;
+}
+    span {
+    border: 1px solid white;
+    width: 50px;
+    display: block;
+    margin-left: 222px;
+    margin-bottom: 35px;  
+}
+    .menu{
+   margin-left: 0px;
+}
+    .call {
+    margin: 0 auto;
+    margin-top: -20px;
+}
+    .call h1{
+   color: #f6f9fa;
+background-color: #00000059;
+display: inline-block;
+margin-left: 120px;
+font-size: 25px;
+padding: 10px 40px;
+}
+    .call-two {
+    margin-bottom: 15px;
+}
+    .call-two h5 {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    margin-left: 222px;
+    margin-top: 20px;
+}
+ .top-header{
+    margin-bottom: 30px;
+}
+    .logo img{
+        width: 100%;
+    } 
+    .btn {
+    margin-bottom: 15px;
+}
+    .btn a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 207px;
+    padding: 10px 40px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}  
+    .r-welcome {
+    padding-top: 30px;
+}
+    .w-text h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;        
+}
+.w-text h6 {
+    border: 1px solid black;
+    width: 20px;
+    margin-bottom: 25px;
+    margin-left: 115px;
+}    
+.w-text p {
+    color: #a5a5a5;
+    font-size: 14px;
+    margin-bottom: 0px;
+}    
+.w-img {
+    margin-top: 75px;
+}  
+.another{
+   background-color: #28282e;
+   padding: 25px 0; 
+   margin-top: 0;
+}
+.r-another{
+    margin-bottom: 50px;
+    margin-top: 15px;
+    
+}
+.a-text{
+    color: white;
+    margin-left: -20px;
+}
+.a-text h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;        
+}
+.a-text h6{
+   border: 1px solid white;
+   width: 25px;
+   margin-bottom: 20px;
+   margin-left: 115px;       
+}
+.a-text p{
+  font-size: 13px;
+  padding-bottom: 40px;
+  text-align: justify;      
+}
+.a-text a{
+    padding: 15px 25px;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.a-text a:hover{
+    border: 1px solid yellow;
+    color: yellow;
+    cursor: pointer;
+}
+.a-pic{   
+    margin-top: -177px;
+    margin-left: 264px; 
+}         
+}
+
+
+
+
+
+
+
+
+
+
